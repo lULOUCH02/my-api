@@ -1,0 +1,57 @@
+{
+  "menu": {
+    "main_courses": {
+      "items": [
+        {
+          "description": "كاري ياباني مع أرز بسمتي ودجاج مقلي",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG",
+          "price": "1700 دج",
+          "title": "كاري الدجاج الياباني"
+        },
+        {
+          "description": "كاري ياباني مع أرز بسمتي ودجاج مقلي",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG",
+          "price": "1700 دج",
+          "title": "كاري الدجاج الياباني"
+        },
+        {
+          "description": "كاري ياباني مع أرز بسمتي ودجاج مقلي",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG",
+          "price": "1700 دج",
+          "title": "كاري الدجاج الياباني"
+        },
+        {
+          "description": "كاري ياباني مع أرز بسمتي ودجاج مقلي",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG",
+          "price": "1700 دج",
+          "title": "كاري الدجاج الياباني"
+        },
+        {
+          "description": "كاري ياباني مع أرز بسمتي ودجاج مقلي",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG",
+          "price": "1700 دج",
+          "title": "كاري الدجاج الياباني"
+        },
+        {
+          "description": "كاري ياباني مع أرز بسمتي ودجاج مقلي",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG",
+          "price": "1700 دج",
+          "title": "كاري الدجاج الياباني"
+        }
+
+      ],
+      "title": "الأطباق الرئيسية"
+    },
+    "starters": {
+      "items": [
+        {
+          "description": "أعواد جبن ملفوفة بشرائح لحم رفيعة تقدم مع أرز الخل",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG",
+          "price": "1300 دج",
+          "title": "ياكيتوري لحم بالجبن"
+        }
+      ],
+      "title": "المقبلات"
+    }
+  }
+}
