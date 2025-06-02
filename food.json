@@ -221,19 +221,19 @@
     {
       "code": "ar",
       "name": "العربية",
-      "flag_url": "https://example.com/flags/saudi-arabia.png",
+      "flag_url": "https://media.menu-touch.fr/common/ICON_LANGUAGE_AR.png",
       "enabled": true
     },
     {
       "code": "en",
       "name": "English",
-      "flag_url": "https://example.com/flags/usa.png",
+      "flag_url": "https://media.menu-touch.fr/common/ICON_LANGUAGE_EN.png",
       "enabled": true
     },
     {
       "code": "fr",
       "name": "Français",
-      "flag_url": "https://example.com/flags/france.png",
+      "flag_url": "https://media.menu-touch.fr/common/ICON_LANGUAGE_FR.png",
       "enabled": false
     }
   ],
