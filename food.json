@@ -1,57 +1,339 @@
 {
-  "menu": {
-    "main_courses": {
-      "items": [
-        {
-          "description": "كاري ياباني مع أرز بسمتي ودجاج مقلي",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG",
-          "price": "1700 دج",
-          "title": "كاري الدجاج الياباني"
-        },
-        {
-          "description": "كاري ياباني مع أرز بسمتي ودجاج مقلي",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG",
-          "price": "1700 دج",
-          "title": "كاري الدجاج الياباني"
-        },
-        {
-          "description": "كاري ياباني مع أرز بسمتي ودجاج مقلي",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG",
-          "price": "1700 دج",
-          "title": "كاري الدجاج الياباني"
-        },
-        {
-          "description": "كاري ياباني مع أرز بسمتي ودجاج مقلي",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG",
-          "price": "1700 دج",
-          "title": "كاري الدجاج الياباني"
-        },
-        {
-          "description": "كاري ياباني مع أرز بسمتي ودجاج مقلي",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG",
-          "price": "1700 دج",
-          "title": "كاري الدجاج الياباني"
-        },
-        {
-          "description": "كاري ياباني مع أرز بسمتي ودجاج مقلي",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG",
-          "price": "1700 دج",
-          "title": "كاري الدجاج الياباني"
-        }
-
-      ],
-      "title": "الأطباق الرئيسية"
-    },
-    "starters": {
-      "items": [
-        {
-          "description": "أعواد جبن ملفوفة بشرائح لحم رفيعة تقدم مع أرز الخل",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG",
-          "price": "1300 دج",
-          "title": "ياكيتوري لحم بالجبن"
-        }
-      ],
-      "title": "المقبلات"
+  "pages": [
+    {
+    "id": "page_1",
+     "label": {
+        "en": "Menu",
+        "ar": "قائمة الطعام",
+        "fr": "Menu"
+      },
+      "type": "Menu",
+      "priority": 1,
+      "show_on_android": true,
+      "show_on_web": true,
+      "time_slots": ["slot1"]
     }
-  }
+  ],
+
+  "menus": [
+    {
+      "id": "menu_1",
+      "label": {
+        "en": "Main Courses",
+        "ar": "الأطباق الرئيسية",
+        "fr": "Plats principaux"
+      },
+      "description": {
+        "en": "A variety of hot meals",
+        "ar": "مجموعة متنوعة من الوجبات الساخنة",
+        "fr": "Une variété de plats chauds"
+      },
+      "type_of_products": "food",
+      "time_slots": [],
+      "display": true,
+      "priority": 1,
+      "page_id": "page_1"
+    }
+  ],
+
+  "products": [
+    {
+      "id": "prod001",
+      "label": {
+        "en": "Japanese Chicken Curry",
+        "ar": "كاري الدجاج الياباني",
+        "fr": "Curry de poulet japonais"
+      },
+      "description": {
+        "en": "Japanese curry with basmati rice and fried chicken",
+        "ar": "كاري ياباني مع أرز بسمتي ودجاج مقلي",
+        "fr": "Curry japonais avec riz basmati et poulet frit"
+      },
+      "price_by_option": {
+      "small": "150",
+      "medium": "200",
+      "large": "250"
+      },
+      "category_id": "menu_1",
+      "sub_category": "أطباق دجاج",
+      "product_suggestions": ["prod002"],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG",
+      "icons": ["icon1", "icon3"],
+      "display": true,
+      "priority": 1,
+      "order_options": ["cooking_meat", "accompaniment"]
+    },
+    {
+      "id": "prod002",
+      "label": {
+        "en": "Japanese Chicken Curry",
+        "ar": "كاري الدجاج الياباني",
+        "fr": "Curry de poulet japonais"
+      },
+      "description": {
+        "en": "Japanese curry with basmati rice and fried chicken",
+        "ar": "كاري ياباني مع أرز بسمتي ودجاج مقلي",
+        "fr": "Curry japonais avec riz basmati et poulet frit"
+      },
+      "price_by_option": {
+      "small": "150",
+      "medium": "200",
+      "large": "250"
+      },
+      "category_id": "menu_1",
+      "sub_category": "مقبلات",
+      "product_suggestions": [],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG",
+      "icons": [],
+      "display": true,
+      "priority": 2,
+      "order_options": ["cooking_meat", "accompaniment"]
+    }
+  ],
+
+  "price_options": [
+    {
+      "id": "small",
+      "label": {
+        "ar": "صغير",
+        "en": "Small"
+      }
+    },
+    {
+      "id": "medium",
+      "label": {
+        "ar": "متوسط",
+        "en": "Medium"
+      }
+    },
+    {
+      "id": "large",
+      "label": {
+        "ar": "كبير",
+        "en": "Large"
+      }
+    }
+  ],
+
+  "icons": [
+    {
+      "id": "icon1",
+      "label": {
+        "en": "Spicy",
+        "ar": "حار",
+        "fr": "Épicé"
+      },
+      "image_url": "https://example.com/icons/spicy.png",
+      "priority": 1
+    },
+    {
+      "id": "icon3",
+      "label": {
+        "en": "Vegan",
+        "ar": "نباتي",
+        "fr": "Végétalien"
+      },
+      "image_url": "https://example.com/icons/vegan.png",
+      "priority": 2
+    }
+  ],
+
+   "time_slots": [
+    {
+      "label": "وقت الغداء",
+      "days": ["Monday", "Tuesday", "Wednesday"],
+      "time_from": "13:30",
+      "time_to": "18:20",
+      "date_start": "2025-03-15",
+      "date_end": "2025-06-15",
+      "priority": 1
+    },
+    {
+      "label": "عروض الصيف",
+      "days": ["Friday", "Saturday"],
+      "time_from": "10:00",
+      "time_to": "15:00",
+      "date_start": "2025-05-01",
+      "date_end": "2025-08-01",
+      "priority": 2
+    },
+    {
+      "label": "المساء فقط",
+      "days": ["Sunday"],
+      "time_from": "17:00",
+      "time_to": "23:00",
+      "date_start": "2025-04-01",
+      "date_end": "2025-07-30",
+      "priority": 3
+    }
+  ],
+
+
+  "languages": [
+    {
+      "code": "ar",
+      "name": "العربية",
+      "flag_url": "https://example.com/flags/saudi-arabia.png",
+      "enabled": true
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "flag_url": "https://example.com/flags/usa.png",
+      "enabled": true
+    },
+    {
+      "code": "fr",
+      "name": "Français",
+      "flag_url": "https://example.com/flags/france.png",
+      "enabled": false
+    }
+  ],
+  "printers": [
+    {
+      "printer_id": "printer_kitchen_1",
+      "label": "طابعة المطبخ 1",
+      "ip": "192.168.1.10",
+      "port": 9100,
+      "paper_width": 80,
+      "characters_per_line": 32,
+      "text_size": 2,
+      "type": "thermal"
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "order_1001",
+      "timestamp": "2025-06-02T14:35:00Z",
+      "table_number": "5",
+      "person": "3",
+      "items": [
+        {
+          "product_id": "prod001",
+          "price_option": "medium",
+          "selected_options": {
+           "accompaniment": ["fries", "salad"],
+           "cooking_meat": ["medium"]
+          },
+          "unit_price": 200,
+          "quantity": 2,
+          "total_price": "3400 دج",
+          "notes": "بدون صوص"
+        }
+      ],
+      "printer_id": "printer_kitchen_1",
+      "status": "pending"
+    }
+  ],
+   "settings": [
+    {
+      "language": "ar",
+      "currency": "دج",
+      "currency_position": "after",
+      "timezone": "Africa/Algiers"
+    }
+  ],
+  "order_options": [
+    {
+      "id": "cooking_meat",
+      "label": {
+        "en": "Cooking meat",
+        "ar": "طبخ اللحم",
+        "fr": "Cuisson de la viande"
+      },
+      "mandatory": true, 
+      "multiple_choices": false,
+      "max_choices": 1,
+      "proposed_choices": [
+        {
+          "id": "blue",
+          "label": {
+            "en": "Blue",
+            "ar": "نادر",
+            "fr": "Bleu"
+          },
+          "short_label": {
+            "en": "Bl",
+            "ar": "ن",
+            "fr": "Bl"
+          },
+          "price": 0,
+          "max_quantity": 1,
+          "image_url": "https://example.com/images/blue_meat.png",
+          "display": true,
+          "priority": 1
+        },
+        {
+          "id": "medium",
+          "label": {
+            "en": "Medium cooking",
+            "ar": "مطهو متوسط",
+            "fr": "Cuisson moyenne"
+          },
+          "short_label": {
+            "en": "Med",
+            "ar": "متوسط",
+            "fr": "Med"
+          },
+          "price": 0,
+          "max_quantity": 1,
+          "image_url": "https://example.com/images/medium_meat.png",
+          "display": true,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "accompaniment",
+      "label": {
+        "en": "Accompaniment",
+        "ar": "طبق جانبي",
+        "fr": "Accompagnement"
+      },
+      "mandatory": false,
+      "multiple_choices": true,
+      "max_choices": 3,
+      "proposed_choices": [
+        {
+          "id": "fries",
+          "label": {
+            "en": "Fries",
+            "ar": "بطاطا مقلية",
+            "fr": "Frites"
+          },
+          "short_label": {
+            "en": "Fr",
+            "ar": "بط",
+            "fr": "Fr"
+          },
+          "price": 100,
+          "max_quantity": 1,
+          "image_url": "https://example.com/images/fries.png",
+          "display": true,
+          "priority": 1
+        },
+        {
+          "id": "salad",
+          "label": {
+            "en": "Salad",
+            "ar": "سلطة",
+            "fr": "Salade"
+          },
+          "short_label": {
+            "en": "Sa",
+            "ar": "سل",
+            "fr": "Sa"
+          },
+          "price": 50,
+          "max_quantity": 1,
+          "image_url": "https://example.com/images/salad.png",
+          "display": true,
+          "priority": 2
+        }
+      ]
+    }
+  ]
+
+
+  
 }
