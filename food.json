@@ -103,7 +103,7 @@
       },
       "category_id": "menu_1",
       "sub_category": "أطباق دجاج",
-      "product_suggestions": ["prod002", "prod001"],
+      "product_suggestions": ["prod002"],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG",
       "icons": ["icon1", "icon3"],
       "display": true,
@@ -123,7 +123,8 @@
         "fr": "Curry japonais avec riz basmati et poulet frit"
       },
       "price_by_option": {
-      "large": "2450"
+      "large": "2450",
+      "medium": "1850"
       },
       "category_id": "menu_1",
       "sub_category": "مقبلات",
