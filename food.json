@@ -12,6 +12,19 @@
       "show_on_android": true,
       "show_on_web": true,
       "time_slots": ["slot1"]
+    },
+    {
+    "id": "page_2",
+     "label": {
+        "en": "pezza",
+        "ar": "بيتزا",
+        "fr": "pezza"
+      },
+      "type": "Menu",
+      "priority": 1,
+      "show_on_android": true,
+      "show_on_web": true,
+      "time_slots": ["slot1"]
     }
   ],
 
