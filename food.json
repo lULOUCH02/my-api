@@ -52,7 +52,7 @@
       "id": "menu_2",
       "label": {
         "en": "Main Courses",
-        "ar": "الأطباق الرئيسية",
+        "ar": "الأطباق الثانوية",
         "fr": "Plats principaux"
       },
       "description": {
@@ -69,7 +69,7 @@
       "id": "menu_3",
       "label": {
         "en": "Main Courses",
-        "ar": "الأطباق الرئيسية",
+        "ar": "الأطباق التحلية",
         "fr": "Plats principaux"
       },
       "description": {
@@ -83,6 +83,7 @@
       "priority": 1
     }
   ],
+
   "products": [
     {
       "id": "prod001",
