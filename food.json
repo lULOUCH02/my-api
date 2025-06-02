@@ -11,7 +11,8 @@
       "priority": 1,
       "show_on_android": true,
       "show_on_web": true,
-      "time_slots": ["slot1"]
+      "time_slots": ["slot1"],
+      "menu_id": ["menu_1", "menu_2", "menu_3"]
     },
     {
     "id": "page_2",
@@ -24,7 +25,8 @@
       "priority": 1,
       "show_on_android": true,
       "show_on_web": true,
-      "time_slots": ["slot1"]
+      "time_slots": ["slot1"],
+      "menu_id": ["menu_1"]
     }
   ],
 
@@ -44,11 +46,43 @@
       "type_of_products": "food",
       "time_slots": [],
       "display": true,
-      "priority": 1,
-      "page_id": "page_1"
+      "priority": 1
+    },
+    {
+      "id": "menu_2",
+      "label": {
+        "en": "Main Courses",
+        "ar": "الأطباق الرئيسية",
+        "fr": "Plats principaux"
+      },
+      "description": {
+        "en": "A variety of hot meals",
+        "ar": "مجموعة متنوعة من الوجبات الساخنة",
+        "fr": "Une variété de plats chauds"
+      },
+      "type_of_products": "food",
+      "time_slots": [],
+      "display": true,
+      "priority": 1
+    },
+    {
+      "id": "menu_3",
+      "label": {
+        "en": "Main Courses",
+        "ar": "الأطباق الرئيسية",
+        "fr": "Plats principaux"
+      },
+      "description": {
+        "en": "A variety of hot meals",
+        "ar": "مجموعة متنوعة من الوجبات الساخنة",
+        "fr": "Une variété de plats chauds"
+      },
+      "type_of_products": "food",
+      "time_slots": [],
+      "display": true,
+      "priority": 1
     }
   ],
-
   "products": [
     {
       "id": "prod001",
