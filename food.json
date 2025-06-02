@@ -273,11 +273,14 @@
   ],
    "settings": [
     {
-      "language": "ar",
-      "currency": "د4ج",
-      "currency_position": "after",
-      "timezone": "Africa/Algiers"
-    }
+    "currency": {
+      "ar": "د4ج",
+      "en": "DZD",
+      "fr": "DZD"
+    },
+    "currency_position": "after",
+    "timezone": "Africa/Algiers"
+  }
   ],
   "order_options": [
     {
