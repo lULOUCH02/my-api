@@ -168,7 +168,7 @@
         "ar": "حار",
         "fr": "Épicé"
       },
-      "image_url": "https://example.com/icons/spicy.png",
+      "image_url": "https://app.menu-touch.fr/images/allergens/allergen_peanut.png",
       "priority": 1
     },
     {
@@ -178,7 +178,7 @@
         "ar": "نباتي",
         "fr": "Végétalien"
       },
-      "image_url": "https://example.com/icons/vegan.png",
+      "image_url": "https://app.menu-touch.fr/images/allergens/allergen_peanut.png",
       "priority": 2
     }
   ],
