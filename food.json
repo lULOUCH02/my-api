@@ -100,7 +100,6 @@
       "price_by_option": {
       "small": "150",
       "medium": "200",
-      "large": "250"
       },
       "category_id": "menu_1",
       "sub_category": "أطباق دجاج",
@@ -124,9 +123,7 @@
         "fr": "Curry japonais avec riz basmati et poulet frit"
       },
       "price_by_option": {
-      "small": "150",
-      "medium": "200",
-      "large": "250"
+      "large": "2450"
       },
       "category_id": "menu_1",
       "sub_category": "مقبلات",
