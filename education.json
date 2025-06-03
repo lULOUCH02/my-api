@@ -2,19 +2,19 @@
   {
     "title": "الدرس الأول",
     "description": "مقدمة في الكهرباء: تعريف التيار والجهد والمقاومة.",
-    "videoUrl": "https://example.com/videos/lesson1.mp4",
-    "imageUrl": "https://example.com/images/lesson1.jpg"
+    "videoUrl": "https://www.youtube.com/watch?v=kNXDHjIkP_0&list=PLKWUX7aMnlEJzRvCXnwFEdk_WJDNjMDOo&ab_channel=SBCODE",
+    "imageUrl": "https://www.techsmith.fr/wp-content/uploads/2023/01/resize-image.png"
   },
   {
     "title": "الدرس الثاني",
     "description": "المغناطيسية: العلاقة بين التيار والمجال المغناطيسي.",
     "videoUrl": null,
-    "imageUrl": "https://example.com/images/lesson2.jpg"
+    "imageUrl": "https://www.techsmith.fr/wp-content/uploads/2023/01/resize-image.png"
   },
   {
     "title": "الدرس الثالث",
     "description": "قوانين أوم وتطبيقاتها في الدارات الكهربائية.",
-    "videoUrl": "https://example.com/videos/lesson3.mp4",
+    "videoUrl": null,
     "imageUrl": null
   }
 ]
