@@ -4,7 +4,7 @@
       "id": "1",
       "title": "الدرس الأول: الحركة",
       "description": "مقدمة في الحركة والقوانين الأساسية.",
-      "type": "text",  // أو "video" أو "images"
+      "type": "text",
       "contentUrl": "https://kotlinlang.org/docs/kotlin-reference.pdf",
       "imageUrls": [],
       "videoUrl": null
