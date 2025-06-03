@@ -1,20 +1,69 @@
-[
-  {
-    "title": "الدرس الأول",
-    "description": "مقدمة في الكهرباء: تعريف التيار والجهد والمقاومة.",
-    "videoUrl": "https://www.youtube.com/watch?v=kNXDHjIkP_0&list=PLKWUX7aMnlEJzRvCXnwFEdk_WJDNjMDOo&ab_channel=SBCODE",
-    "imageUrl": "https://www.techsmith.fr/wp-content/uploads/2023/01/resize-image.png"
-  },
-  {
-    "title": "الدرس الثاني",
-    "description": "المغناطيسية: العلاقة بين التيار والمجال المغناطيسي.",
-    "videoUrl": null,
-    "imageUrl": "https://www.techsmith.fr/wp-content/uploads/2023/01/resize-image.png"
-  },
-  {
-    "title": "الدرس الثالث",
-    "description": "قوانين أوم وتطبيقاتها في الدارات الكهربائية.",
-    "videoUrl": null,
-    "imageUrl": null
-  }
-]
+{
+  "lessons": [
+    {
+      "id": "1",
+      "title": "الدرس الأول: الحركة",
+      "description": "مقدمة في الحركة والقوانين الأساسية.",
+      "type": "text",  // أو "video" أو "images"
+      "contentUrl": "https://kotlinlang.org/docs/kotlin-reference.pdf",
+      "imageUrls": [],
+      "videoUrl": null
+    },
+    {
+      "id": "2",
+      "title": "الدرس الثاني: التسارع",
+      "description": "فيديو توضيحي حول التسارع.",
+      "type": "video",
+      "contentUrl": null,
+      "imageUrls": [],
+      "videoUrl": "https://file-examples.com/storage/fe32c8d6966839f839df247/2017/04/file_example_MP4_1920_18MG.mp4"
+    },
+    {
+      "id": "3",
+      "title": "الدرس الثالث: القوانين",
+      "description": "عرض مجموعة من الصور التوضيحية.",
+      "type": "images",
+      "contentUrl": null,
+      "imageUrls": [
+        "https://i.pinimg.com/736x/87/6b/43/876b437351af2bd685bfe0daad675b5b.jpg",
+        "https://i.pinimg.com/736x/87/6b/43/876b437351af2bd685bfe0daad675b5b.jpg",
+        "https://i.pinimg.com/736x/87/6b/43/876b437351af2bd685bfe0daad675b5b.jpg",
+        "https://i.pinimg.com/736x/87/6b/43/876b437351af2bd685bfe0daad675b5b.jpg"
+      ],
+      "videoUrl": null
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "title": "تمرين عن الحركة",
+      "type": "pdf",
+      "pdfUrl": "https://kotlinlang.org/docs/kotlin-reference.pdf"
+    },
+    {
+      "id": "ex2",
+      "title": "اختبار سريع عن التسارع",
+      "type": "quiz",
+      "questions": [
+        {
+          "question": "ما هو تعريف التسارع؟",
+          "options": [
+            "التغير في السرعة خلال الزمن",
+            "المسافة المقطوعة",
+            "الكتلة مضروبة في الجاذبية"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "وحدة قياس التسارع هي:",
+          "options": [
+            "m",
+            "m/s²",
+            "kg"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    }
+  ]
+}
