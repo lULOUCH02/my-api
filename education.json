@@ -4,8 +4,8 @@
       "id": "1",
       "title": "الدرس الأول: الحركة",
       "description": "مقدمة في الحركة والقوانين الأساسية.",
-      "type": "text",
-      "contentUrl": "https://drive.google.com/file/d/1ru9KDzh0TZh6iFbm6a0hGUMdsqOOeuoC/view?pli=1",
+      "type": "pdf",
+      "content": "https://drive.google.com/uc?export=download&id=1ru9KDzh0TZh6iFbm6a0hGUMdsqOOeuoC",
       "imageUrls": [],
       "videoUrl": null
     },
@@ -14,7 +14,7 @@
       "title": "الدرس الثاني: التسارع",
       "description": "فيديو توضيحي حول التسارع.",
       "type": "video",
-      "contentUrl": null,
+      "content": null,
       "imageUrls": [],
       "videoUrl": "https://file-examples.com/storage/fe32c8d6966839f839df247/2017/04/file_example_MP4_1920_18MG.mp4"
     },
@@ -23,7 +23,7 @@
       "title": "الدرس الثالث: القوانين",
       "description": "عرض مجموعة من الصور التوضيحية.",
       "type": "images",
-      "contentUrl": null,
+      "content": null,
       "imageUrls": [
         "https://i.pinimg.com/736x/87/6b/43/876b437351af2bd685bfe0daad675b5b.jpg",
         "https://i.pinimg.com/736x/87/6b/43/876b437351af2bd685bfe0daad675b5b.jpg",
@@ -38,7 +38,7 @@
       "id": "ex1",
       "title": "تمرين عن الحركة",
       "type": "pdf",
-      "pdfUrl": "https://drive.google.com/file/d/1ru9KDzh0TZh6iFbm6a0hGUMdsqOOeuoC/view?pli=1"
+      "content": "https://drive.google.com/uc?export=download&id=1ru9KDzh0TZh6iFbm6a0hGUMdsqOOeuoC"
     },
     {
       "id": "ex2",
@@ -46,22 +46,22 @@
       "type": "quiz",
       "questions": [
         {
-          "question": "ما هو تعريف التسارع؟",
+          "text": "ما هو تعريف التسارع؟",
           "options": [
             "التغير في السرعة خلال الزمن",
             "المسافة المقطوعة",
             "الكتلة مضروبة في الجاذبية"
           ],
-          "correctIndex": 0
+          "correctAnswer": "التغير في السرعة خلال الزمن"
         },
         {
-          "question": "وحدة قياس التسارع هي:",
+          "text": "وحدة قياس التسارع هي:",
           "options": [
             "m",
             "m/s²",
             "kg"
           ],
-          "correctIndex": 1
+          "correctAnswer": "m/s²"
         }
       ]
     }
