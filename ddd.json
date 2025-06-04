@@ -1,29 +1,31 @@
-{
-  "education": [
+
     {
-      "institution": "Massachusetts Institute of Technology",
-      "degree": "Bachelor of Science",
-      "fieldOfStudy": "Computer Science",
-      "startDate": "2015-09-01",
-      "endDate": "2019-06-01",
-      "grade": "3.9",
-      "activities": [
-        "ACM Student Chapter",
-        "HackMIT Organizer"
-      ],
-      "description": "Studied core computer science subjects, algorithms, and systems. Focused on AI and Machine Learning."
-    },
-    {
-      "institution": "Stanford University",
-      "degree": "Master of Science",
-      "fieldOfStudy": "Artificial Intelligence",
-      "startDate": "2020-09-01",
-      "endDate": "2022-06-01",
-      "grade": "4.0",
-      "activities": [
-        "Research Assistant - NLP Group"
-      ],
-      "description": "Research focused on NLP and Deep Learning. Published a paper on transformer-based models."
+      "education": [
+        {
+          "institution": "lulouch king",
+          "degree": "Bachelor of Science",
+          "fieldOfStudy": "Computer Science",
+          "startDate": "2015-09-01",
+          "endDate": "2019-06-01",
+          "grade": "3.9",
+          "activities": [
+            "ACM Student Chapter",
+            "HackMIT Organizer"
+          ],
+          "description": "Studied core computer science subjects, algorithms, and systems. Focused on AI and Machine Learning."
+        },
+        {
+          "institution": "Stanford University",
+          "degree": "Master lulouch",
+          "fieldOfStudy": "Artificial Intelligence",
+          "startDate": "2020-09-01",
+          "endDate": "2022-06-01",
+          "grade": "4.0",
+          "activities": [
+            "Research Assistant - NLP Group"
+          ],
+          "description": "Research focused on NLP and Deep Learning. Published a paper on transformer-based models."
+        }
+      ]
     }
-  ]
-}
+    
