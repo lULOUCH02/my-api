@@ -19,7 +19,7 @@
       "description": "استمتع بتوصيل مجاني لمدة محدودة",
       "buttonText": "اطلب الآن",
       "buttonAction": "offer",
-      "imageUrl": "https://example.com/delivery.png",
+      "imageUrl": "https://scontent.fczl2-2.fna.fbcdn.net/v/t39.30808-6/470799274_546498135032406_6031356809670912909_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=pRONhVqxdMcQ7kNvwGZ3XcT&_nc_oc=AdlUg5d35n2hkeRD_IgAaQJRJmk1tRyYxo65daHEViXe21urRWud6jZpbnaWJjMNiwo&_nc_zt=23&_nc_ht=scontent.fczl2-2.fna&_nc_gid=XOPPXvqyTpTKLpFAbbeC6A&oh=00_Affm0CTR9lD0nJD6brwVvR_l8cWCj4wPjfq-bXsWDh0V7w&oe=68F80539",
       "gradientStart": "#4FACFE",
       "gradientEnd": "#00F2FE",
       "type": "image"
