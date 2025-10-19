@@ -41,7 +41,7 @@
       "subtitle": "لطلبات فوق 100 ريال",
       "description": "استمتع بتوصيل مجاني وسريع لمدة محدودة - اطلب الآن ولا تفوت الفرصة",
       "buttonText": "اطلب الآن",
-      "buttonAction": "route://delivery",
+      "buttonAction": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=500",
       "imageUrl": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=500",
       "backgroundImageUrl": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800",
       "gradientStart": "#4FACFE",
